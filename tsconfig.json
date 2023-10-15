@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"]
+    },
+    "include": ["**/*.ts", "**/*.js"]
+  }
